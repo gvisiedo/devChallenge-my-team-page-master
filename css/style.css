@@ -58,6 +58,7 @@ main{
 }
 /* Cards */
 .section-container-img1{
+   
     display: grid;
     grid-template-areas: 
     "img aside";
@@ -72,16 +73,18 @@ main{
 
 .section-container-img1>img{
     grid-area: "img" ;
+    
 }
 .section-container-img1>p{
     padding: 10px 0px 25px 0px;
+   
    
 }
 .section-container-img2{
     display: grid;
     grid-template-areas: 
     "img aside";
-    margin-top: 150px;
+    
     
 }
 .section-container-img2>aside{
@@ -134,7 +137,7 @@ main{
     display: grid;
     grid-template-areas: 
     "img aside";
-    margin-top: 150px;
+    
 }
 .section-container-img5>aside{
     grid-area: "aside" ;
